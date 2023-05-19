@@ -57,17 +57,17 @@ const NavbarFc: FunctionComponent = () => {
         <div
           className={
             !color
-              ? 'flex gap-24 items-center bg-appThemeColor py-8 px-10 w-full h-[90px]'
-              : 'flex gap-24 items-center bg-white py-8 px-10 w-full h-[90px] drop-shadow-lg'
+              ? 'flex gap-24 items-center bg-appThemeColor py-10 px-10 w-full h-[90px]'
+              : 'flex gap-24 items-center bg-white py-10 px-10 w-full h-[90px] drop-shadow-lg'
           }
         >
           <Link href={'/'}>
             <div>
               {!color ? (
-                <Image src="/logo-glab.png" className="h-32" alt="Logo GLab" />
+                <Image src="/logo_1.png" className="h-32" alt="Logo GLab" />
               ) : (
                 <Image
-                  src="/logo-glab.png"
+                  src="/logo_2.png"
                   className="h-32  transition ease-in"
                   alt="Logo GLab"
                 />
