@@ -1,0 +1,106 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+   scrollbar-gutter: hidden;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: white;
+    background: black;
+  }
+}
+
+@keyframes carousel {
+  from {
+    bottom: -24px;
+    opacity: .3;
+  }
+  to{
+    bottom : 0px;
+    opacity: 1;
+  }
+}
+
+@keyframes cookie {
+  from {
+    left : -300px;
+    opacity : .3
+  }
+  to {
+    left : 2vw;
+    opacity : 1
+  }
+}
+
+@keyframes removeCookie {
+  from {
+    left : 3rem;
+    opacity : 1
+  }
+  to {
+    left : -300px;
+    opacity : .3
+  }
+}
+
+.carouselItem {
+  position: relative;
+  animation: carousel 1.5s;
+}
+
+.cookie {
+  animation : cookie .5s;
+}
+
+.removeCookie {
+  animation : removeCookie .5s;
+}
+
+.transition-bg {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+@keyframes useFor {
+  from {
+    bottom: -54px;
+    opacity: .3;
+  }
+  to{
+    bottom : 0px;
+    opacity: 1;
+  }
+}
+.useFor {
+  position: relative;
+  animation: useFor 1.5s
+}
+
