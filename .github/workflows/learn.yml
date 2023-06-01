@@ -1,0 +1,10 @@
+name : lint the code
+run-name: ${{ github.actor }} push has declanch lin on the repo
+on: [push]
+jobs:
+  check-bats-version:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - run: npm run lint
+      
