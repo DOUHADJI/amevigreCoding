@@ -4,8 +4,6 @@ import Layout from '../components/partials/layout';
 import Brand from '../components/partials/brand';
 import TransformOneFc from '../components/partials/transformOne';
 import SliderBrand from '../components/index/sliderBrand';
-import Link from 'next/link';
-import { Image } from '@nextui-org/react';
 import UseFor from '../components/index/useFor';
 import OurSolutions from '../components/index/ourSolutions';
 import GainProductivity from '../components/index/gainProductivity';

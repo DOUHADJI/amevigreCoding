@@ -58,7 +58,7 @@ const UseFor: FunctionComponent = () => {
           
           className={
             visibility
-              ? 'bg-cardColorOne px-8 rounded-[24px] mt-10 -mb-44 animate-fadeInUp  h-full '
+              ? 'bg-cardColorOne px-8 rounded-[24px] mt-10 -mb-44 animate-fadeInUp animate-slower  h-full'
               : 'display-none'
           }
         >
